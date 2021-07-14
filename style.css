@@ -245,11 +245,12 @@ footer {
     grid-template-columns: repeat(1, 330px);
     grid-template-rows: repeat(12, 474px);
     grid-row-gap: 24px;
+    position: relative;
   }
   /* ------------- World Ranking --------------- */
   .ranking-container{
     grid-template-columns: repeat(1,360px);
-    grid-template-rows: 120px repeat(2,1fr);
+    grid-template-rows: 120px repeat(2,405px);
     grid-row-gap:20px;
     justify-content: center;
     margin-left: 60px;
@@ -269,9 +270,10 @@ footer {
 /* -------------- Partners Company -------------- */
 .partners{
   display: grid;
-  grid-template-columns: repeat(1,1fr);
-  grid-template-rows: repeat(6,1fr);
+  grid-template-columns: repeat(1,100px);
+  grid-template-rows: repeat(6,70px);
   grid-row-gap: 10px;
+  justify-content: center;
 }
   /* ------------ Footer Part ------------------ */
   footer {
